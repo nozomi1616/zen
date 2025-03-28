@@ -118,6 +118,10 @@ profile
 /*-----------------------------------------------
 aeru
 -----------------------------------------------*/
+.aeru {
+  margin-top: 100px;
+}
+
 .aeru-container {
   display: flex;
   flex-direction: column;
@@ -132,7 +136,7 @@ aeru
 zen
 -----------------------------------------------*/
 .zen {
-  margin-top: 200px;
+  margin-top: 100px;
   width: 100%;
   text-align: center;
 }
