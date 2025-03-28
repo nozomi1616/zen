@@ -7,11 +7,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: pink;
+}
+
 /*================================================
 共通パーツ
 ================================================*/
 section {
-  margin-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .btn {
@@ -124,6 +129,19 @@ aeru
 }
 
 /*-----------------------------------------------
+zen
+-----------------------------------------------*/
+.zen {
+  margin-top: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+.zen-text {
+  line-height: 2;
+}
+
+/*-----------------------------------------------
 外部リンク
 -----------------------------------------------*/
 iframe {
@@ -195,7 +213,7 @@ footer
 @media screen and (min-width: 1101px) {
   .inner {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 100px auto;
   }
   .inner-spOnly {
     max-width: none;
@@ -246,10 +264,15 @@ footer
     gap: 100px;
   }
   .aeru-text {
-    width: 27%;
+    width: 100%;
+    font-size: 20px;
   }
   .aeru-img {
     width: 500px;
+  }
+  .zen-text {
+    font-size: 36px;
+    font-family: serif;
   }
 }
 
